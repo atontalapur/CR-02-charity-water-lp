@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">    
   <title>Charity: Water</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
     * {
       box-sizing: border-box;
     }
 
     body {
       margin: 0;
-      font-family: 'Pragati Narrow', sans-serif;
-      background-color: #ffffff;
-      color: #000;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #FFC907;
+      color: #8898e6;
     }
 
     header {
@@ -22,7 +25,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
-      background-color: #fff;
+      background-color: #fff7e1;
       position: sticky;
       top: 0;
       z-index: 10;
@@ -45,7 +48,7 @@
     }
 
     nav {
-      background-color: #ccc;
+      background-color: #cbccd1;
       display: flex;
       justify-content: space-around;
       padding: 10px 0;
@@ -61,7 +64,7 @@
     }
 
     nav a:hover {
-      color: #0077cc;
+      color: #77A8BB;
       transform: translateY(-2px);
     }
 
@@ -83,8 +86,8 @@
     .main {
       display: flex;
       flex-wrap: wrap;
-      background-color: #00bfff;
-      color: #fff;
+      background-color: #003366;
+      color: #BF6C46;
       transition: all 0.3s ease-in-out;
     }
 
@@ -100,13 +103,14 @@
     }
 
     .main-text h1 {
-      font-size: 40px;
+      font-size: 60px;
       color: #ffd600;
       margin: 0;
     }
 
     .main-text p {
       font-weight: bold;
+      font-size: 20px;
       margin-top: 20px;
       line-height: 1.5;
     }
@@ -128,11 +132,11 @@
     }
 
     .testimonial {
-      background: linear-gradient(to right bottom, #00bfff 50%, #fff 50%);
+      background: linear-gradient(to right bottom, #003366 50%, #FFC907 50%);
       padding: 40px 20px;
       text-align: center;
       font-style: italic;
-      font-size: 1.2em;
+      font-size: 3em;
       transition: background-position 0.3s ease;
     }
 
@@ -140,14 +144,14 @@
       content: "\201C";
       font-size: 2em;
       vertical-align: middle;
-      color: #000;
+      color: #FFC907;
     }
 
     .testimonial::after {
       content: "\201D";
       font-size: 2em;
       vertical-align: middle;
-      color: #000;
+      color: #003366;
     }
 
     @media (max-width: 768px) {
@@ -176,7 +180,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Charity_Water_logo.svg/512px-Charity_Water_logo.svg.png" alt="Charity: Water Logo">
+      <img src="img/charity-water-logo.png" alt="Charity: Water Logo">
     </div>
     <button class="donate-btn">Donate Now</button>
   </header>
@@ -195,7 +199,7 @@
       <p>You're not just donating – you're transforming lives. 100% of your gift brings clean water to those in need, and we’ll show you exactly where it goes.</p>
     </div>
     <div class="main-image">
-      <img src="https://via.placeholder.com/600x400.png?text=Hero+Image" alt="Woman and child drinking water" />
+      <img src="img/charity-water-women.jpeg" alt="Woman and child drinking water" />
     </div>
   </div>
 
